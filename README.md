@@ -7,7 +7,7 @@
 <div align="center">
   <img src="resource/overall.png" width="500"/>
 </div>
-<br>
+
 <div align="center">
   <a href="https://arxiv.org/abs/2403.19654">
     <span style="font-size: 20px; ">arXiv</span>
