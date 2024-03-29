@@ -5,7 +5,7 @@
 </div>
 <br>
 <div align="center">
-  <img src="resource/overall.png" width="800"/>
+  <img src="resource/overall.png" width="500"/>
 </div>
 <br>
 <div align="center">
@@ -21,17 +21,11 @@
 
 ## Welcome to our repository! 
 
-This repository contains the PyTorch implementation of our PromptCC model in the paper: "A Decoupling Paradigm with Prompt Learning for Remote Sensing Image Change Captioning". 
+This repository will provide the following: 
+- LEVIR-MCI dataset.
+- Training of multi-level change interpretation model.
+- Construction of Change-Agent. 
 
-For more information, please see our published paper in [[IEEE](https://ieeexplore.ieee.org/document/10271701)]  ***(Accepted by TGRS 2023)***
-
-## Overview
-- Considering the specificity of the RSICC task, PromptCC employs a novel decoupling paradigm and deeply integrates prompt learning and pre-trained large language models.
-- This repository will encompass all aspects of our code, including **training, inference, computation of evaluation metrics, as well as the tokenization and word mapping** used in our work.
-
-<div align="center">
-<img src="./Example/Prompt_CC.png" width="600"></img>
-</div>
 
 [//]: # (## Contributions)
 
