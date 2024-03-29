@@ -5,7 +5,7 @@
 </div>
 <br>
 <div align="center">
-  <img src="resource/overall.png" width="500"/>
+  <img src="resource/overall.png" width="600"/>
 </div>
 
 <div align="center">
