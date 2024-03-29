@@ -10,7 +10,7 @@
 
 <div align="center">
   <a href="https://arxiv.org/abs/2403.19654">
-    <span style="font-size: 20px; ">arXiv</span>
+    <span style="font-size: 20px; ">ArXiv</span>
   </a>
 </div>
 
