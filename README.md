@@ -22,7 +22,7 @@
 
 This repository will provide the following: 
 - LEVIR-MCI dataset.
-- Training of multi-level change interpretation model.
+- Training of the multi-level change interpretation model.
 - Construction of Change-Agent. 
 
 
