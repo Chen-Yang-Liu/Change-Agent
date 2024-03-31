@@ -1,6 +1,6 @@
 <div align="center">
     <h2>
-        Change-Agent: Towards Interactive Comprehensive Change Interpretation and Analysis from Change Detection and Change Captioning
+        Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis
     </h2>
 </div>
 <br>
