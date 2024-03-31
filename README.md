@@ -18,7 +18,7 @@
 
 
 
-## Welcome to our repository! Share us a :star: if you are interested in this repository
+## Share us a :star: if you're interested in this repo
 
 This repository will provide the following: 
 - **LEVIR-MCI dataset**. The dataset contains bi-temporal images as well as diverse change detection masks and descriptive sentences. It provides a crucial data foundation for exploring multi-task learning for change detection and change captioning.
