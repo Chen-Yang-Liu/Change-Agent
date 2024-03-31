@@ -5,7 +5,7 @@
 </div>
 <br>
 <div align="center">
-  <img src="resource/overall.png" width="600"/>
+  <img src="resource/vs.png" width="600"/>
 </div>
 
 <div align="center">
@@ -21,9 +21,21 @@
 ## Welcome to our repository! 
 
 This repository will provide the following: 
-- LEVIR-MCI dataset.
-- Training of the multi-level change interpretation model.
-- Construction of Change-Agent. 
+- **LEVIR-MCI dataset**. The dataset contains bi-temporal images as well as diverse change detection masks and descriptive sentences. It provides a crucial data foundation for exploring multi-task learning for change detection and change captioning.
+    <br>
+    <div align="center">
+      <img src="resource/dataset.png" width="600"/>
+    </div>
+    <br>
+- **Training of the multi-level change interpretation model**.
+    <div align="center">
+      <img src="resource/overall.png" width="600"/>
+    </div>
+- **Construction of Change-Agent**. 
+    <br>
+    <div align="center">
+      <img src="resource/Plan.png" width="350"/>
+    </div>
 
 
 [//]: # (## Contributions)
