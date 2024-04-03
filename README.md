@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <a href="https://arxiv.org/abs/2403.19654">
+  <a href="https://arxiv.org/abs/2403.19646">
     <span style="font-size: 20px; ">ArXiv</span>
   </a>
 </div>
