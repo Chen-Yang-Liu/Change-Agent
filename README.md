@@ -16,7 +16,7 @@
 
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
 
-**The dataset and code**
+**The dataset and code:**
 - Download the LEVIR_MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main) (Available Now!).
 - Code is coming soon.
 
