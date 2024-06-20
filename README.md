@@ -16,7 +16,7 @@
 
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
 
-**The dataset and code will be made public.**
+**The dataset and code will be made public:**
 - Download the LEVIR_MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main) (Available Now!).
 
 ## Share us a :star: if you're interested in this repo
