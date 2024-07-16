@@ -12,6 +12,8 @@
     <a href="https://ieeexplore.ieee.org/document/10591792">
     <span style="font-size: 20px; ">IEEE TGRS</span>
   </a>
+</div>
+<div align="center">
   <a href="https://arxiv.org/abs/2403.19646">
     <span style="font-size: 20px; ">ArXiv</span>
   </a>
