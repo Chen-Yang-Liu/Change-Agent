@@ -9,9 +9,13 @@
 </div>
 
 <div align="center">
+    <a href="https://ieeexplore.ieee.org/document/10591792">
+    <span style="font-size: 20px; ">IEEE TGRS</span>
+  </a>
   <a href="https://arxiv.org/abs/2403.19646">
     <span style="font-size: 20px; ">ArXiv</span>
   </a>
+    
 </div>
 
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
