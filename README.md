@@ -41,7 +41,7 @@ This repository will provide the following:
     <br>
 - **Training of the multi-level change interpretation model**.
     <div align="center">
-      <img src="resource/overall2.png" width="600"/>
+      <img src="resource/overall3.png" width="600"/>
     </div>
 - **Construction of Change-Agent**. 
     <br>
