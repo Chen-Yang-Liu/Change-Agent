@@ -28,7 +28,7 @@ This repository contains the official PyTorch implementation of the paper: "**Ch
 
 **The dataset and code:**
 - Download the LEVIR_MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main) (**Available Now!**).
-- Code is coming soon.
+- The training code of the MCI model will be available **before July 31st**.
 
 ## Share us a :star: if you're interested in this repo
 
