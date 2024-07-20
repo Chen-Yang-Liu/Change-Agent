@@ -11,7 +11,7 @@
 This repository contains the official PyTorch implementation of the paper: "**Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis**" in [[IEEE](https://ieeexplore.ieee.org/document/10591792)]  ***(Accepted by IEEE TGRS 2024)***
 
 <div align="center">
-  <img src="resource/Change_Agent.png" width="600"/>
+  <img src="resource/Change_Agent.png" width="400"/>
 </div>
 
 ## LEVIR-MCI dataset 
