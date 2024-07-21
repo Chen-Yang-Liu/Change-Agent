@@ -114,7 +114,7 @@ You also can download our pretrained model here: [[Hugging face](https://hugging
       <img src="resource/overview_agent.png" width="800"/>
 </div>
 
-- The code will be available
+- The code will be available soon
 ```python
 cd ./Change-Agent/Aagent
 pip install -e .[all]
