@@ -92,7 +92,7 @@ You also can download our pretrained model here: [[Hugging face](https://hugging
 - The code will be available
     <br>
     <div align="center">
-      <img src="resource/overview_agent.png" width="500"/>
+      <img src="resource/overview_agent.png" width="600"/>
     </div>
 
 
