@@ -69,7 +69,7 @@ After that, you can find some generated files in `./data/LEVIR_MCI/`.
 ### Train
 Make sure you performed the data preparation above. Then, start training as follows:
 ```python
-python train.py --train_goal 2 --savepath ./models_ckpt/
+python train.py --train_goal 2 --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --savepath ./models_ckpt/
 ```
 
 ### Evaluate
