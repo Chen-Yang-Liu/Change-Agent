@@ -55,7 +55,7 @@ where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase i
 - Extract text files for the change descriptions of each image pair in LEVIR-MCI:
 
 ```
-$ python preprocess_data.py
+python preprocess_data.py
 ```
 
 ## Construction of Change-Agent
