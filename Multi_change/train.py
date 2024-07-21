@@ -391,7 +391,7 @@ if __name__ == '__main__':
     parser.add_argument('--train_stage', default='s1', help='s1: pretrain backbone under two loss;'
                                                                          ' s2: train two branch respectively')
     parser.add_argument('--fine_tune_encoder', type=bool, default=True, help='whether fine-tune encoder or not')
-    parser.add_argument('--train_batchsize', type=int, default=16, help='batch_size for training')
+    parser.add_argument('--train_batchsize', type=int, default=64, help='batch_size for training')
     parser.add_argument('--num_epochs', type=int, default=250, help='number of epochs to train for (if early stopping is not triggered).')
     parser.add_argument('--workers', type=int, default=0, help='for data-loading')
     parser.add_argument('--encoder_lr', type=float, default=1e-4, help='learning rate for encoder if fine-tuning.')
