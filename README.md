@@ -36,15 +36,30 @@ The overview of the MCI model:
 <br>
 
 ### Preparation
-- Install Dependencies:
+<details open>
+    
+- **Environment Installation**:
+  
+**Step 1**: Create a virtual environment named `Multi_change_env` and activate it.
+```python
+conda create -n Multi_change_env python=3.9
+conda activate Multi_change_env
+```
+
+**Step 2**: Download or clone the BiFA repository.
 ```python
 git clone https://github.com/Chen-Yang-Liu/Change-Agent.git
 cd ./Change-Agent/Multi_change
-conda create -n Multi_change_env python=3.9
-conda activate Multi_change_env
+```
+
+**Step 3**: Install dependencies.
+```python
 pip install -r requirements.txt
 ```
-- Download the LEVIR-MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main). The data structure of LEVIR-MCI is organized as follows:
+
+- **Download Dataset**:
+  
+  Link: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main). The data structure of LEVIR-MCI is organized as follows:
 
 ```
 ├─/DATA_PATH_ROOT/Levir-MCI-dataset/
