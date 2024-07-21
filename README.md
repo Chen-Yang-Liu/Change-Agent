@@ -80,7 +80,7 @@ pip install -r requirements.txt
 ```
 where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase images, and folder ``label`` contains the change detection masks.
 
-- Extract text files for the descriptions of each image pair in LEVIR-MCI:
+- **Extract text files for the descriptions of each image pair in LEVIR-MCI**:
 
 ```
 python preprocess_data.py
