@@ -24,14 +24,14 @@ This repository contains the official PyTorch implementation of the paper: "**Ch
 - The dataset contains bi-temporal images as well as diverse change detection masks and descriptive sentences. It provides a crucial data foundation for exploring multi-task learning for change detection and change captioning.
     <br>
     <div align="center">
-      <img src="resource/dataset.png" width="600"/>
+      <img src="resource/dataset.png" width="800"/>
     </div>
     <br>
 ## Training of the multi-level change interpretation model
 The overview of the MCI model:
 <br>
     <div align="center">
-      <img src="resource/MCI_model.png" width="600"/>
+      <img src="resource/MCI_model.png" width="800"/>
     </div>
 <br>
 
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 ```
 where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase images, and folder ``label`` contains the change detection masks.
 
-- Extract text files for the descriptions of each image pair in LEVIR-MCI:
+- **Extract text files for the descriptions of each image pair in LEVIR-MCI**:
 
 ```
 python preprocess_data.py
@@ -109,11 +109,12 @@ You also can download our pretrained model here: [[Hugging face](https://hugging
 
 
 ## Construction of Change-Agent
-- The code will be available
-    <br>
-    <div align="center">
-      <img src="resource/overview_agent.png" width="600"/>
-    </div>
+<br>
+<div align="center">
+      <img src="resource/overview_agent.png" width="800"/>
+</div>
+
+- The code will be available soon
 ```python
 cd ./Change-Agent/Aagent
 pip install -e .[all]
