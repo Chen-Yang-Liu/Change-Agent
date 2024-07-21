@@ -273,7 +273,7 @@ if __name__ == '__main__':
     # Data parameters
     parser.add_argument('--sys', default='win', help='system win or linux')
     parser.add_argument('--data_folder', default='D:\Dataset\Caption\change_caption\Levir-MCI-dataset\images',
-                        help='folder with data files')
+                        help='folder with image files')
     parser.add_argument('--list_path', default='./data/LEVIR_MCI/', help='path of the data lists')
     parser.add_argument('--token_folder', default='./data/LEVIR_MCI/tokens/', help='folder with token files')
     parser.add_argument('--vocab_file', default='vocab', help='path of the data lists')
@@ -283,11 +283,11 @@ if __name__ == '__main__':
 
     # Test
     parser.add_argument('--gpu_id', type=int, default=0, help='gpu id in the training.')
-    parser.add_argument('--checkpoint', default='./models_ckpt/LEVIR_CC_bts_64_segformer-mit_b1_epo_49_Sum_15274_MIou_8655_Bleu4_6619.pth',
+    parser.add_argument('--checkpoint', default='./models_ckpt/MCI_model.pth',
                         help='path to checkpoint')
     parser.add_argument('--print_freq', type=int, default=100, help='print training/validation stats every __ batches')
     parser.add_argument('--test_batchsize', default=1, help='batch_size for test')
-    parser.add_argument('--workers', type=int, default=8, help='for data-loading')
+    parser.add_argument('--workers', type=int, default=0, help='for data-loading')
     parser.add_argument('--dropout', type=float, default=0.1, help='dropout')
     # save masks and captions?
     parser.add_argument('--save_mask', action='store_true', help='save the result of masks')
