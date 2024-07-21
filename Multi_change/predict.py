@@ -1,3 +1,7 @@
+import sys
+
+# 添加特定路径到 Python 解释器的搜索路径中
+sys.path.append('F:\LCY\Change_Agent\Change-Agent-git\Multi_change')
 import os.path
 
 import cv2
@@ -43,11 +47,16 @@ Returns:
 '''
 class Change_Perception(object):
     def define_args(self):
+
+
+        script_path = os.path.abspath(__file__)
+        script_dir = os.path.dirname(script_path)
+        print(script_dir)
         parser = argparse.ArgumentParser(description='Remote_Sensing_Image_Change_Interpretation')
 
         parser.add_argument('--data_folder', default='D:\Dataset\Caption\change_caption\Levir-MCI-dataset\images',
                             help='folder with data files')
-        parser.add_argument('--list_path', default='./data/LEVIR_MCI/',
+        parser.add_argument('--list_path', default='F:\LCY\Change_Agent\Change-Agent-git\Multi_change\data\LEVIR_MCI/',
                             help='path of the data lists')
         parser.add_argument('--vocab_file', default='vocab', help='path of the data lists')
         parser.add_argument('--max_length', type=int, default=41, help='path of the data lists')
@@ -88,6 +97,7 @@ class Change_Perception(object):
             self.word_vocab = json.load(f)
         # Load checkpoint
         snapshot_full_path = args.checkpoint
+
         checkpoint = torch.load(snapshot_full_path)
         self.encoder = Encoder(args.network)
         self.encoder_trans = AttentiveEncoder(train_stage=None, n_layers=args.n_layers,

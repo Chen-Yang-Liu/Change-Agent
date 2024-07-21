@@ -422,7 +422,7 @@ class Segformer_baseline(nn.Module):
 
         script_path = os.path.abspath(__file__)
         script_dir = os.path.dirname(script_path)
-        print(script_dir)
+        # print(script_dir)
 
         if backbone == "mit_b0":
             self.segformer = mit_b0()
