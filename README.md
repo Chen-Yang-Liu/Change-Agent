@@ -4,15 +4,14 @@
 
 **[Chenyang Liu](https://chen-yang-liu.github.io/), [Keyan Chen](https://kyanchen.github.io), [Haotian Zhang](https://scholar.google.com/citations?user=c7uR6NUAAAAJ), [Zipeng Qi](https://scholar.google.com/citations?user=KhMtmBsAAAAJ), [Zhengxia Zou](https://scholar.google.com.hk/citations?hl=en&user=DzwoyZsAAAAJ), and [Zhenwei Shi*✉](https://scholar.google.com.hk/citations?hl=en&user=kNhFWQIAAAAJ)**
 
+<div align="center">
+  <img src="resource/Change_Agent.png" width="400"/>
+</div>
 </div>
 
 ## Share us a :star: if you're interested in this repo
 
 This repository contains the official PyTorch implementation of the paper: "**Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis**" in [[IEEE](https://ieeexplore.ieee.org/document/10591792)]  ***(Accepted by IEEE TGRS 2024)***
-
-<div align="center">
-  <img src="resource/Change_Agent.png" width="400"/>
-</div>
 
 ## LEVIR-MCI dataset 
 - Download the LEVIR_MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main) (**Available Now!**).
