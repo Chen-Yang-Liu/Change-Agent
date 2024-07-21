@@ -25,7 +25,7 @@ This repository contains the official PyTorch implementation of the paper: "**Ch
 ## Training of the multi-level change interpretation model
 - The training code of the MCI model will be available **before July 31st**.
     <div align="center">
-      <img src="resource/overall3.png" width="600"/>
+      <img src="resource/MCI_model.png" width="600"/>
     </div>
 
 ### Preparation
@@ -62,7 +62,7 @@ python preprocess_data.py
 - The code will be available
     <br>
     <div align="center">
-      <img src="resource/Plan.png" width="350"/>
+      <img src="resource/overview_agent.png" width="350"/>
     </div>
 
 
