@@ -69,7 +69,7 @@ After that, you can find some generated files in `./data/LEVIR_MCI/`.
 ### Train
 Make sure you performed the data preparation above. Then, start training as follows:
 ```python
-python train.py
+python train.py --train_goal 2 --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --savepath ./models_ckpt/
 ```
 
 ### Evaluate
@@ -79,7 +79,7 @@ python test.py --checkpoint {checkpoint_PATH}
 We recommend training the model 5 times to get an average score.
 
 ### Inference
-Then, run a inference to get started as follows:
+Then, run inference to get started as follows:
 ```python
 python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path}
 ```
