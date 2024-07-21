@@ -15,12 +15,8 @@ This repository contains the official PyTorch implementation of the paper: "**Ch
 
 ## Table of Contents
 - [LEVIR-MCI dataset](#LEVIR-MCI-dataset)
-- [Training of MCI model](#Training of the multi-level change interpretation model)
-- [Construction of Change-Agent](#Construction of Change-Agent)
-- [Table of Contents](#Table-of-Contents)
-- [Installation](#Installation)
-- [Dataset Preparation](#Dataset-Preparation)
-- [Model Training and Testing](#Model-Training-and-Testing)
+- [Training of MCI model](#Training-of-the-multi-level-change-interpretation model)
+- [Construction of Change-Agent](#Construction-of-Change-Agent)
 - [Citation](#Citation)
 
 ## LEVIR-MCI dataset 
