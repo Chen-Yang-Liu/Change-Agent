@@ -74,14 +74,14 @@ python train.py --train_goal 2 --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/i
 
 ### Evaluate
 ```python
-python test.py --checkpoint {checkpoint_PATH}
+python test.py --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --checkpoint {checkpoint_PATH}
 ```
 We recommend training the model 5 times to get an average score.
 
 ### Inference
 Then, run inference to get started as follows:
 ```python
-python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path}
+python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path} --mask_save_path ./CDmask.png
 ```
 You also can download our pretrained model here: [[Hugging face](https://huggingface.co/lcybuaa/PromptCC/tree/main)]. After that, put it in `./models_ckpt/`.
 
