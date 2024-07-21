@@ -100,7 +100,7 @@ python test.py --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --checkpoi
 We recommend training the model 5 times to get an average score.
 
 ### Inference
-Then, run inference to get started as follows:
+Run inference to get started as follows:
 ```python
 python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path} --mask_save_path ./CDmask.png
 ```
