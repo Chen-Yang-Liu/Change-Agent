@@ -13,6 +13,16 @@
 
 This repository contains the official PyTorch implementation of the paper: "**Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis**" in [[IEEE](https://ieeexplore.ieee.org/document/10591792)]  ***(Accepted by IEEE TGRS 2024)***
 
+## Table of Contents
+- [LEVIR-MCI dataset](#LEVIR-MCI-dataset)
+- [Training of MCI model](#Training of the multi-level change interpretation model)
+- [Construction of Change-Agent](#Construction of Change-Agent)
+- [Table of Contents](#Table-of-Contents)
+- [Installation](#Installation)
+- [Dataset Preparation](#Dataset-Preparation)
+- [Model Training and Testing](#Model-Training-and-Testing)
+- [Citation](#Citation)
+
 ## LEVIR-MCI dataset 
 - Download the LEVIR_MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main) (**Available Now!**).
 - The dataset contains bi-temporal images as well as diverse change detection masks and descriptive sentences. It provides a crucial data foundation for exploring multi-task learning for change detection and change captioning.
