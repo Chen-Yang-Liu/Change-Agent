@@ -109,11 +109,12 @@ You also can download our pretrained model here: [[Hugging face](https://hugging
 
 
 ## Construction of Change-Agent
-- The code will be available
-    <br>
-    <div align="center">
+<br>
+<div align="center">
       <img src="resource/overview_agent.png" width="800"/>
-    </div>
+</div>
+
+- The code will be available
 ```python
 cd ./Change-Agent/Aagent
 pip install -e .[all]
