@@ -23,19 +23,19 @@ This repository contains the official PyTorch implementation of the paper: "**Ch
     </div>
     <br>
 ## Training of the multi-level change interpretation model
-- The training code of the MCI model will be available **before July 31st**.
     <div align="center">
       <img src="resource/MCI_model.png" width="600"/>
     </div>
-
 ### Preparation
-- Cd into the ``Multi_change`` folder:
+- Install Dependencies:
+```python
+git clone https://github.com/Chen-Yang-Liu/Change-Agent.git
+cd ./Change-Agent/Multi_change
+conda create -n Multi_change_env python=3.9
+conda activate Multi_change_env
+pip install -r requirements.txt
 ```
-cd ./Multi_change
-```
-- Install the required packages: `pip install -r requirements.txt`
-- Download the LEVIR-MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)
-- The data structure of LEVIR-MCI is organized as follows:
+- Download the LEVIR-MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main). The data structure of LEVIR-MCI is organized as follows:
 
 ```
 ├─/DATA_PATH_ROOT/Levir-MCI-dataset/
@@ -56,11 +56,34 @@ cd ./Multi_change
 ```
 where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase images, and folder ``label`` contains the change detection masks.
 
-- Extract text files for the change descriptions of each image pair in LEVIR-MCI:
+- Extract text files for the descriptions of each image pair in LEVIR-MCI:
 
 ```
 python preprocess_data.py
 ```
+After that, you can find some generated files in `./data/LEVIR_MCI/`. 
+
+### Inference
+You can download our pretrained model here: [[Hugging face](https://huggingface.co/lcybuaa/PromptCC/tree/main)]. After that, put it in `./models_ckpt/`.
+
+Then, run a inference to get started as follows:
+```python
+python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path}
+```
+
+### Train
+Make sure you performed the data preparation above. Then, start training as follows:
+```python
+python train.py
+```
+
+### Evaluate
+```python
+python test.py --checkpoint {checkpoint_PATH}
+```
+We recommend training the model 5 times to get an average score.
+
+
 
 ## Construction of Change-Agent
 - The code will be available
