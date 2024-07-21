@@ -23,9 +23,13 @@ This repository contains the official PyTorch implementation of the paper: "**Ch
     </div>
     <br>
 ## Training of the multi-level change interpretation model
+The overview of the MCI model:
+<br>
     <div align="center">
       <img src="resource/MCI_model.png" width="600"/>
     </div>
+<br>
+
 ### Preparation
 - Install Dependencies:
 ```python
@@ -63,14 +67,6 @@ python preprocess_data.py
 ```
 After that, you can find some generated files in `./data/LEVIR_MCI/`. 
 
-### Inference
-You can download our pretrained model here: [[Hugging face](https://huggingface.co/lcybuaa/PromptCC/tree/main)]. After that, put it in `./models_ckpt/`.
-
-Then, run a inference to get started as follows:
-```python
-python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path}
-```
-
 ### Train
 Make sure you performed the data preparation above. Then, start training as follows:
 ```python
@@ -82,6 +78,13 @@ python train.py
 python test.py --checkpoint {checkpoint_PATH}
 ```
 We recommend training the model 5 times to get an average score.
+
+### Inference
+Then, run a inference to get started as follows:
+```python
+python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path}
+```
+You also can download our pretrained model here: [[Hugging face](https://huggingface.co/lcybuaa/PromptCC/tree/main)]. After that, put it in `./models_ckpt/`.
 
 
 
