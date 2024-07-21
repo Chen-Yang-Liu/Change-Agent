@@ -283,8 +283,7 @@ if __name__ == '__main__':
 
     # Test
     parser.add_argument('--gpu_id', type=int, default=0, help='gpu id in the training.')
-    parser.add_argument('--checkpoint', default='./models_ckpt/MCI_model.pth',
-                        help='path to checkpoint')
+    parser.add_argument('--checkpoint', default='./models_ckpt/MCI_model.pth', help='path to checkpoint')
     parser.add_argument('--print_freq', type=int, default=100, help='print training/validation stats every __ batches')
     parser.add_argument('--test_batchsize', default=1, help='batch_size for test')
     parser.add_argument('--workers', type=int, default=0, help='for data-loading')
