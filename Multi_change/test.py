@@ -11,35 +11,31 @@ from utils_tool.utils import *
 from utils_tool.metrics import Evaluator
 
 def save_mask(pred, gt, name, save_path,args):
-    # pred 的值为0,1,2；分别映射为黑色，黄色，红色
-    # gt 的值为0,1,2；分别映射为黑色，黄色，红色
+    # pred value: 0,1,2; map to black, yellow, red
+    # gt value: 0,1,2; map to black, yellow, red
     name = name[0]
-    # return 0
     evaluator = Evaluator(num_class=3)
     evaluator.add_batch(gt, pred)
     mIoU_seg, IoU = evaluator.Mean_Intersection_over_Union()
     Miou_str = round(mIoU_seg, 4)
-    # Miou_str存储在名字为score的json文件中
+    # Miou_str save in json file named score
     json_name = os.path.join(save_path, 'score.json')
     if not os.path.exists(json_name):
         with open(json_name, 'a+') as f:
             key = name.split('.')[0]
             json.dump({f'{key}': {'MIoU':Miou_str}}, f)
-        # 关闭文件
         f.close()
     else:
-        # 读取JSON文件
         with open(os.path.join(save_path, 'score.json'), 'r') as file:
             data = json.load(file)
             key = name.split('.')[0]
             data[key] = {'MIoU': Miou_str}
-        # 写入修改后的数据至同一文件
+        # write to json file
         with open(os.path.join(save_path, 'score.json'), 'w') as file:
             json.dump(data, file)
-        # 关闭文件
         file.close()
 
-    # 保存图片
+    # save mask
     pred = pred[0].astype(np.uint8)
     gt = gt[0].astype(np.uint8)
     pred_rgb = np.zeros((pred.shape[0], pred.shape[1], 3), dtype=np.uint8)
