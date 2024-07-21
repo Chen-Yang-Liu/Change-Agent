@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/model/fighting_model" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/models_checkpoint" />
+      <excludeFolder url="file://$MODULE_DIR$/models_ckpt" />
+      <excludeFolder url="file://$MODULE_DIR$/models_ckpt_CD-SA2CA" />
+      <excludeFolder url="file://$MODULE_DIR$/models_ckpt_CD-SA2CA_v2" />
+      <excludeFolder url="file://$MODULE_DIR$/models_ckpt_v3" />
+      <excludeFolder url="file://$MODULE_DIR$/models_ckpt_v4" />
+      <excludeFolder url="file://$MODULE_DIR$/models_ckpt_v5" />
+      <excludeFolder url="file://$MODULE_DIR$/models_ckpt_v6" />
+      <excludeFolder url="file://$MODULE_DIR$/data" />
+      <excludeFolder url="file://$MODULE_DIR$/eval_func" />
+    </content>
+    <orderEntry type="jdk" jdkName="multi-change" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>
