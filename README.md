@@ -27,6 +27,37 @@ This repository contains the official PyTorch implementation of the paper: "**Ch
     <div align="center">
       <img src="resource/overall3.png" width="600"/>
     </div>
+
+### Preparation
+- Install the required packages: `pip install -r requirements.txt`
+- Download the LEVIR-MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)
+- The data structure of LEVIR-MCI is organized as follows:
+
+```
+├─/DATA_PATH_ROOT/Levir-MCI-dataset/
+        ├─LevirCCcaptions.json
+        ├─images
+             ├─train
+             │  ├─A
+             │  ├─B
+             │  ├─label
+             ├─val
+             │  ├─A
+             │  ├─B
+             │  ├─label
+             ├─test
+             │  ├─A
+             │  ├─B
+             │  ├─label
+```
+where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase images, and folder ``label`` contains the change detection masks.
+
+- Extract text files for the change descriptions of each image pair in LEVIR-MCI:
+
+```
+$ python preprocess_data.py
+```
+
 ## Construction of Change-Agent
 - The code will be available
     <br>
