@@ -33,6 +33,9 @@ The overview of the MCI model:
 - Install Dependencies:
 ```python
 git clone https://github.com/Chen-Yang-Liu/Change-Agent.git
+cd ./Change-Agent/lagent
+pip install -e.
+
 cd ./Change-Agent/Multi_change
 conda create -n Multi_change_env python=3.9
 conda activate Multi_change_env
