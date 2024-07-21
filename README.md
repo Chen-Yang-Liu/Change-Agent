@@ -31,7 +31,7 @@ This repository contains the official PyTorch implementation of the paper: "**Ch
 ### Preparation
 - Cd into the ``Multi_change`` folder:
 ```
-cd Multi_change
+cd ./Multi_change
 ```
 - Install the required packages: `pip install -r requirements.txt`
 - Download the LEVIR-MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)
