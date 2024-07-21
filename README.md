@@ -62,7 +62,7 @@ python preprocess_data.py
 - The code will be available
     <br>
     <div align="center">
-      <img src="resource/overview_agent.png" width="350"/>
+      <img src="resource/overview_agent.png" width="500"/>
     </div>
 
 
