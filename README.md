@@ -36,56 +36,58 @@ The overview of the MCI model:
 <br>
 
 ### Preparation
-<details open>
     
 - **Environment Installation**:
-  
-**Step 1**: Create a virtual environment named `Multi_change_env` and activate it.
-```python
-conda create -n Multi_change_env python=3.9
-conda activate Multi_change_env
-```
-
-**Step 2**: Download or clone the BiFA repository.
-```python
-git clone https://github.com/Chen-Yang-Liu/Change-Agent.git
-cd ./Change-Agent/Multi_change
-```
-
-**Step 3**: Install dependencies.
-```python
-pip install -r requirements.txt
-```
+    <details open>
+    
+    **Step 1**: Create a virtual environment named `Multi_change_env` and activate it.
+    ```python
+    conda create -n Multi_change_env python=3.9
+    conda activate Multi_change_env
+    ```
+    
+    **Step 2**: Download or clone the BiFA repository.
+    ```python
+    git clone https://github.com/Chen-Yang-Liu/Change-Agent.git
+    cd ./Change-Agent/Multi_change
+    ```
+    
+    **Step 3**: Install dependencies.
+    ```python
+    pip install -r requirements.txt
+    ```
+    </details>
 
 - **Download Dataset**:
-  
+  <details open>
   Link: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main). The data structure of LEVIR-MCI is organized as follows:
 
-```
-├─/DATA_PATH_ROOT/Levir-MCI-dataset/
-        ├─LevirCCcaptions.json
-        ├─images
-             ├─train
-             │  ├─A
-             │  ├─B
-             │  ├─label
-             ├─val
-             │  ├─A
-             │  ├─B
-             │  ├─label
-             ├─test
-             │  ├─A
-             │  ├─B
-             │  ├─label
-```
-where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase images, and folder ``label`` contains the change detection masks.
+    ```
+    ├─/DATA_PATH_ROOT/Levir-MCI-dataset/
+            ├─LevirCCcaptions.json
+            ├─images
+                 ├─train
+                 │  ├─A
+                 │  ├─B
+                 │  ├─label
+                 ├─val
+                 │  ├─A
+                 │  ├─B
+                 │  ├─label
+                 ├─test
+                 │  ├─A
+                 │  ├─B
+                 │  ├─label
+    ```
+    where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase images, and folder ``label`` contains the change detection masks.
+    </details>
 
 - **Extract text files for the descriptions of each image pair in LEVIR-MCI**:
 
-```
-python preprocess_data.py
-```
-After that, you can find some generated files in `./data/LEVIR_MCI/`. 
+    ```
+    python preprocess_data.py
+    ```
+    After that, you can find some generated files in `./data/LEVIR_MCI/`. 
 
 ### Train
 Make sure you performed the data preparation above. Then, start training as follows:
@@ -100,7 +102,7 @@ python test.py --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --checkpoi
 We recommend training the model 5 times to get an average score.
 
 ### Inference
-Then, run inference to get started as follows:
+Run inference to get started as follows:
 ```python
 python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path} --mask_save_path ./CDmask.png
 ```
