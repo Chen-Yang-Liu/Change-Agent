@@ -1,7 +1,7 @@
 import sys
 
 # 添加特定路径到 Python 解释器的搜索路径中
-sys.path.append('F:\LCY\Change_Agent\Change-Agent-git\Multi_change')
+# sys.path.append('F:\LCY\Change_Agent\Change-Agent-git\Multi_change')
 import os.path
 
 import cv2
@@ -179,12 +179,15 @@ class Change_Perception(object):
         # 保存图片
         pred = pred_seg[0].astype(np.uint8)
         pred_rgb = np.zeros((pred.shape[0], pred.shape[1], 3), dtype=np.uint8)
-        pred_rgb[pred == 1] = [0, 255, 255]
-        pred_rgb[pred == 2] = [0, 0, 255]
+        # pred_rgb[pred == 1] = [0, 255, 255]
+        # pred_rgb[pred == 2] = [0, 0, 255]
 
-        cv2.imwrite(savepath_mask, pred_rgb)
-        print('model_infer: mask saved in', savepath_mask)
+        # cv2.imwrite(savepath_mask, pred_rgb)
+        # print('model_infer: mask saved in', savepath_mask)
+
+        print('model_infer_change_detection: end')
         return pred # (256,256,3)
+        # return 'change detection successfully. '
 
     def compute_object_num(self, changed_mask, object):
         print("compute num start")
@@ -216,7 +219,7 @@ class Change_Perception(object):
         print('Found', num, object)
         print('compute num end')
         # return
-        num_str = 'Found ' + str(num) + 'changed ' + object
+        num_str = 'Found ' + str(num) + ' changed ' + object
         return num_str
 
     # design more tool functions:
