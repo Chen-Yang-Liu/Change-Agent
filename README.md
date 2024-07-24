@@ -141,7 +141,7 @@ You also can download our pretrained model here: [[Hugging face](https://hugging
     The code will be available soon.
     ```
 
-## Citation & Acknowledgments
+## Citation
 If you find this paper useful in your research, please consider citing:
 ```
 @ARTICLE{Liu_Change_Agent,
