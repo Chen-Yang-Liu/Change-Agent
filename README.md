@@ -116,11 +116,30 @@ You also can download our pretrained model here: [[Hugging face](https://hugging
       <img src="resource/overview_agent.png" width="800"/>
 </div>
 
-- The code will be available soon
-```python
-cd ./Change-Agent/Aagent
-pip install -e .[all]
-```
+- **Agent Installation**:
+    ```python
+    cd ./Change-Agent/lagent-main
+    pip install -e .[all]
+    ```
+- **Run Agent**:
+
+    cd into the ``Multi_change` folder:
+    ```python
+    cd ./Change-Agent/Multi_change
+    ```
+    (1) Run Agent Cli Demo:
+    ```bash
+    # You need to install streamlit first
+    # pip install streamlit
+    python try_chat.py
+    ```
+        
+    (2) Run Agent Web Demo:
+    ```bash
+    # You need to install streamlit first
+    # pip install streamlit
+    The code will be available soon.
+    ```
 
 ## Citation & Acknowledgments
 If you find this paper useful in your research, please consider citing:
