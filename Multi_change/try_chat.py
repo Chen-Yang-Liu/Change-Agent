@@ -4,13 +4,13 @@ from lagent.llms import HFTransformer, HFTransformerCasualLM
 from lagent.llms import GPTAPI
 import os
 
-os.environ["http_proxy"] = "http://localhost:7890"
-os.environ["https_proxy"] = "http://localhost:7890"
+# os.environ["http_proxy"] = "http://localhost:7890"
+# os.environ["https_proxy"] = "http://localhost:7890"
 
-llm = GPTAPI(model_type='gpt-3.5-turbo', key='sk-mUI2hyBa9wUaImLR16Fb24595cA04632AbE3C2DdCfB39e0b')
+llm = GPTAPI(model_type='gpt-3.5-turbo', key='xxxxx') # KEY from openai
 # llm = HFTransformer(r'internlm/internlm-chat-7b-v1_1')
 # llm = HFTransformerCasualLM(r'internlm/internlm-chat-7b-v1_1')
-search_tool = GoogleSearch(api_key='25d18d5a8c6dc4c61615cfa2be8aa18f15e05e29')#AIzaSyBGbpP4qpc5HQLSU1HMdP0zcF9ZMU2LspI
+search_tool = GoogleSearch(api_key='xxxx') # key from google search
 python_interpreter = PythonInterpreter()
 imgchange_python_interpreter = Visual_Change_Process_PythonInterpreter()
 
