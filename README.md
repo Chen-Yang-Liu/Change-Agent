@@ -156,3 +156,11 @@ If you find this paper useful in your research, please consider citing:
   doi={10.1109/TGRS.2024.3425815}}
 
 ```
+
+## Acknowledgement
+Thanks to the following repository:
+
+[RSIC](https://github.com/Chen-Yang-Liu/RSIC); [Chg2Cap](https://github.com/ShizhenChang/Chg2Cap); [lagent](https://github.com/InternLM/lagent)
+
+## License
+This repo is distributed under [MIT License](https://github.com/Chen-Yang-Liu/Change-Agent/blob/main/LICENSE.txt). The code can be used for academic purposes only.
