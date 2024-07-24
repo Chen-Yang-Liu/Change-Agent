@@ -21,12 +21,15 @@ chatbot = ReAct(
 )
 
 if __name__ == '__main__':
+    history = []
     while True:
         user_input = input('\n||<User>||Please input your message: ')
         # user_input='The path of picture A is F:/LCY/Change_Agent/Multi_change/predict_result/test_000004_A.png, the path of picture B is F:/LCY/Change_Agent/Multi_change/predict_result/test_000004_B.png, the masks for detecting changes in buildings and roads are displayed in red and green respectively. The result can be saved in E:/1.png'
         # user_input='The path of picture A is F:/LCY/Change_Agent/Multi_change/predict_result/test_000004_A.png, the path of picture B is F:/LCY/Change_Agent/Multi_change/predict_result/test_000004_B.png, Describe what has changed in the two images'
 
         print('\n||Start thinking ...')
-        response = chatbot.chat(user_input)
+        message = history.append(dict(role='user', content=user_input))
+        agent_return = chatbot.chat(message)
+        history.append(dict(role='assistant', content=agent_return.response))
         print('\n||<Change-Agent>|| The response of Agent:')
-        print(response.response)
+        print(agent_return.response)
