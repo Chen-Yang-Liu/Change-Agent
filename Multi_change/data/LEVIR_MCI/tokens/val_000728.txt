@@ -1,0 +1,1 @@
+[["<START>", "lush", "grass", "grows", "on", "the", "wasteland", "<END>"], ["<START>", "lush", "green", "grass", "grows", "on", "the", "bareland", "<END>"], ["<START>", "a", "road", "appears", "<END>"], ["<START>", "a", "road", "is", "built", "<END>"], ["<START>", "a", "straight", "path", "has", "been", "built", "in", "the", "clearing", "<END>"]]

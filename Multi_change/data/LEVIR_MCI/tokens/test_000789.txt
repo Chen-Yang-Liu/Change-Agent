@@ -1,0 +1,1 @@
+[["<START>", "some", "roads", "appear", "on", "the", "sides", "of", "the", "scene", "<END>"], ["<START>", "some", "roads", "are", "built", "on", "bareland", "<END>"], ["<START>", "the", "main", "road", "has", "been", "constructed", "<END>"], ["<START>", "a", "crossroad", "appears", "<END>"], ["<START>", "two", "intersecting", "roads", "are", "built", "on", "bareland", "<END>"]]

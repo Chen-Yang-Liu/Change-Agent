@@ -1,0 +1,1 @@
+[["<START>", "vegetation", "becomes", "withered", "and", "sparse", "<END>"], ["<START>", "some", "plants", "disappear", "and", "the", "grassland", "disappears", "<END>"], ["<START>", "more", "trees", "appear", "<END>"], ["<START>", "the", "grass", "in", "the", "open", "space", "disappears", "<END>"], ["<START>", "many", "plants", "are", "removed", "<END>"]]

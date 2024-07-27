@@ -1,0 +1,1 @@
+[["<START>", "a", "lake", "appears", "<END>"], ["<START>", "a", "pound", "appears", "on", "the", "bareland", "<END>"], ["<START>", "some", "plants", "disappear", "<END>"], ["<START>", "a", "small", "pool", "appears", "in", "the", "bareland", "on", "the", "lower", "<END>"], ["<START>", "many", "lush", "trees", "on", "this", "land", "have", "disappeared", "<END>"]]

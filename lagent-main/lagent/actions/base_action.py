@@ -338,6 +338,7 @@ class BaseAction(metaclass=AutoRegister(TOOL_REGISTRY, ToolMeta)):
         try:
             inputs = self._parser.parse_inputs(inputs, name)
         except ParseError as exc:
+            print(exc)
             return ActionReturn(
                 fallback_args,
                 type=self.name,

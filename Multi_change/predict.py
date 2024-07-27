@@ -179,11 +179,11 @@ class Change_Perception(object):
         # 保存图片
         pred = pred_seg[0].astype(np.uint8)
         pred_rgb = np.zeros((pred.shape[0], pred.shape[1], 3), dtype=np.uint8)
-        # pred_rgb[pred == 1] = [0, 255, 255]
-        # pred_rgb[pred == 2] = [0, 0, 255]
+        pred_rgb[pred == 1] = [0, 255, 255]
+        pred_rgb[pred == 2] = [0, 0, 255]
 
-        # cv2.imwrite(savepath_mask, pred_rgb)
-        # print('model_infer: mask saved in', savepath_mask)
+        cv2.imwrite(savepath_mask, pred_rgb)
+        print('model_infer: mask saved in', savepath_mask)
 
         print('model_infer_change_detection: end')
         return pred # (256,256,3)

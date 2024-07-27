@@ -1,0 +1,1 @@
+[["<START>", "a", "road", "is", "rebuilt", "<END>"], ["<START>", "a", "cement", "road", "is", "built", "across", "the", "area", "<END>"], ["<START>", "the", "existing", "road", "widens", "at", "the", "bottom", "<END>"], ["<START>", "two", "roads", "have", "been", "built", "on", "the", "lower", "<END>"], ["<START>", "an", "original", "straight", "road", "is", "widened", "<END>"]]

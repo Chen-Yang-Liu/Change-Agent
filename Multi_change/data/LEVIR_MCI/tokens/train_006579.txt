@@ -1,0 +1,1 @@
+[["<START>", "the", "trees", "on", "the", "grass", "become", "dense", "and", "luxuriant", "<END>"], ["<START>", "more", "trees", "appear", "<END>"], ["<START>", "dense", "trees", "have", "grown", "on", "the", "meadow", "<END>"], ["<START>", "some", "trees", "appear", "on", "the", "bareland", "<END>"], ["<START>", "trees", "on", "the", "lawn", "grow", "bigger", "<END>"]]

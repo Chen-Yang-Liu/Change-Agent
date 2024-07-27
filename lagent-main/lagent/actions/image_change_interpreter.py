@@ -109,9 +109,12 @@ class Visual_Change_Process_PythonInterpreter(BaseAction):
         NOTE: The code of Action Input must be placed in def solution()!!
         For example:
         When the user wants to detect the changed buildings and save the changed building areas in red, "Action Input" should be as follows:
-        ```python
+        ```json
+        {'command':```python
         def solution():
             from tools import Change_Perception
+            import cv2
+            import numpy as np
             path_A = 'xxxxxx'
             path_B = 'xxxxxx'
             savepath_mask = 'xxxxxx'
@@ -122,6 +125,9 @@ class Visual_Change_Process_PythonInterpreter(BaseAction):
             mask_bgr[mask == 2] = [0, 0, 255] # '2' stands for changed building (red)
             cv2.imwrite(savepath_mask, mask_bgr)
         ```
+        }
+        ```
+
 
 
         Args:
@@ -139,6 +145,7 @@ class Visual_Change_Process_PythonInterpreter(BaseAction):
 
     def _call(self, command: str) -> ActionReturn:
         tool_return = ActionReturn(type=self.name)
+        print('RUN Command:', command)
         try:
             if '```python' in command:
                 command = command.split('```python')[1].split('```')[0]
@@ -163,6 +170,7 @@ class Visual_Change_Process_PythonInterpreter(BaseAction):
                 self.runtime.exec_code('\n'.join(command[:-1]))
                 res = self.runtime.eval_code(command[-1])
         except Exception as e:
+            print('Model RUN Error:', e)
             tool_return.errmsg = repr(e)
             tool_return.type = self.name
             tool_return.state = ActionStatusCode.API_ERROR

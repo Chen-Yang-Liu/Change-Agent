@@ -1,0 +1,1 @@
+[["<START>", "a", "circular", "road", "appears", "surrounding", "the", "grassland", "<END>"], ["<START>", "the", "pond", "dried", "up", "and", "exposed", "the", "riverbed", "<END>"], ["<START>", "the", "lake", "is", "dried", "up", "<END>"], ["<START>", "the", "lake", "dried", "up", "<END>"], ["<START>", "the", "widow", "turns", "into", "bareland", "<END>"]]

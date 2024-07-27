@@ -1,0 +1,1 @@
+[["<START>", "the", "sparse", "forest", "has", "been", "removed", "from", "the", "meadow", "<END>"], ["<START>", "some", "trees", "disappear", "from", "the", "bareland", "<END>"], ["<START>", "the", "vegetation", "is", "removed", "<END>"], ["<START>", "vegetation", "has", "decreased", "<END>"], ["<START>", "many", "small", "trees", "have", "been", "removed", "<END>"]]

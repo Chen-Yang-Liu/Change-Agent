@@ -1,0 +1,1 @@
+[["<START>", "a", "road", "has", "finished", "construction", "<END>"], ["<START>", "a", "cement", "road", "is", "built", "across", "the", "area", "<END>"], ["<START>", "two", "roads", "appear", "<END>"], ["<START>", "two", "roads", "have", "been", "built", "in", "the", "bareland", "<END>"], ["<START>", "two", "wide", "concrete", "roads", "are", "newly", "constructed", "<END>"]]

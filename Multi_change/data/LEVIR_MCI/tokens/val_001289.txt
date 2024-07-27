@@ -1,0 +1,1 @@
+[["<START>", "the", "withered", "woodland", "becomes", "full", "of", "life", "<END>"], ["<START>", "the", "trees", "by", "the", "road", "has", "grown", "greener", "<END>"], ["<START>", "more", "trees", "appear", "<END>"], ["<START>", "some", "woods", "appear", "along", "the", "road", "<END>"], ["<START>", "the", "vegetation", "quantity", "increases", "<END>"]]

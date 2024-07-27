@@ -1,0 +1,1 @@
+[["<START>", "a", "path", "appears", "in", "the", "woods", "on", "the", "lower-left", "<END>"], ["<START>", "a", "road", "in", "the", "woods", "appears", "<END>"], ["<START>", "a", "road", "appears", "<END>"], ["<START>", "a", "winding", "road", "appears", "<END>"], ["<START>", "a", "winding", "path", "connected", "with", "the", "original", "road", "appears", "<END>"]]
