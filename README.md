@@ -123,7 +123,7 @@ You can modify ``--checkpoint`` of ``Change_Perception.define_args()`` in ``pred
     ```
 - **Run Agent**:
 
-    cd into the ``Multi_change` folder:
+    cd into the ``Multi_change`` folder:
     ```python
     cd ./Change-Agent/Multi_change
     ```
