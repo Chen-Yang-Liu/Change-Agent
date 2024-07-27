@@ -138,7 +138,7 @@ You also can download our pretrained model here: [[Hugging face](https://hugging
     ```bash
     # You need to install streamlit first
     # pip install streamlit
-    The code will be available soon.
+    streamlit run react_web_demo.py
     ```
 
 ## Citation
