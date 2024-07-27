@@ -206,7 +206,7 @@ class ReAct(BaseAgent):
                  llm: Union[BaseModel, BaseAPIModel],
                  action_executor: ActionExecutor,
                  protocol: ReActProtocol = ReActProtocol(),
-                 max_turn: int = 8) -> None:
+                 max_turn: int = 6) -> None:
         self.max_turn = max_turn
         super().__init__(
             llm=llm, action_executor=action_executor, protocol=protocol)
@@ -239,9 +239,9 @@ class ReAct(BaseAgent):
             inner_history.append(dict(role='assistant', content=response))
             thought, action, action_input = self._protocol.parse(
                 response, self._action_executor)
-            print('thought:', thought)
-            print('action:', action)
-            print('action_input:', action_input)
+            # print('thought:', thought)
+            # print('action:', action)
+            # print('action_input:', action_input)
             action_return: ActionReturn = self._action_executor(
                 action, action_input)
             action_return.thought = thought

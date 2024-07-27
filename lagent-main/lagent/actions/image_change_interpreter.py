@@ -109,8 +109,7 @@ class Visual_Change_Process_PythonInterpreter(BaseAction):
         NOTE: The code of Action Input must be placed in def solution()!!
         For example:
         When the user wants to detect the changed buildings and save the changed building areas in red, "Action Input" should be as follows:
-        ```json
-        {'command':```python
+        ``python
         def solution():
             from tools import Change_Perception
             import cv2
@@ -124,8 +123,6 @@ class Visual_Change_Process_PythonInterpreter(BaseAction):
             mask_bgr = np.zeros((mask.shape[0], mask.shape[1], 3), dtype=np.uint8)
             mask_bgr[mask == 2] = [0, 0, 255] # '2' stands for changed building (red)
             cv2.imwrite(savepath_mask, mask_bgr)
-        ```
-        }
         ```
 
 

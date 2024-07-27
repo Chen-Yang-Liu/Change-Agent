@@ -198,7 +198,7 @@ def main():
             file_bytes_B = uploaded_file_B.read()
             file_type_B = uploaded_file_B.type
             if 'image' in file_type_B:
-                st.image(file_bytes_B, caption='Uploaded Image_B')
+                st.image(file_bytes_B, caption='Uploaded Image_B')#, use_column_width=False, width=300
             # elif 'video' in file_type_B:
             #     st.video(file_bytes_B, caption='Uploaded Video')
             # elif 'audio' in file_type_B:
@@ -214,7 +214,7 @@ def main():
             file_bytes_A = uploaded_file_A.read()
             file_type_A = uploaded_file_A.type
             if 'image' in file_type_A:
-                st.image(file_bytes_A, caption='Uploaded Image_A')
+                st.image(file_bytes_A, caption='Uploaded Image_A') #, use_column_width=False, width=300
             # elif 'video' in file_type_A:
             #     st.video(file_bytes_A, caption='Uploaded Video')
             # elif 'audio' in file_type_A:
