@@ -140,6 +140,10 @@ You can modify ``--checkpoint`` of ``Change_Perception.define_args()`` in ``pred
     # pip install streamlit
     streamlit run react_web_demo.py
     ```
+<br>
+<div align="center">
+      <img src="resource/web.png"/>
+</div>
 
 ## Citation
 If you find this paper useful in your research, please consider citing:
