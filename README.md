@@ -46,7 +46,7 @@ The overview of the MCI model:
     conda activate Multi_change_env
     ```
     
-    **Step 2**: Download or clone the BiFA repository.
+    **Step 2**: Download or clone the repository.
     ```python
     git clone https://github.com/Chen-Yang-Liu/Change-Agent.git
     cd ./Change-Agent/Multi_change
@@ -60,7 +60,7 @@ The overview of the MCI model:
 
 - **Download Dataset**:
   <details open>
-  Link: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main). The data structure of LEVIR-MCI is organized as follows:
+  Link: [[LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)]. The data structure of LEVIR-MCI is organized as follows:
 
     ```
     ├─/DATA_PATH_ROOT/Levir-MCI-dataset/
