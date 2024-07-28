@@ -60,7 +60,8 @@ The overview of the MCI model:
 
 - **Download Dataset**:
   <details open>
-  Link: [[LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)]. The data structure of LEVIR-MCI is organized as follows:
+      
+  Link: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main). The data structure of LEVIR-MCI is organized as follows:
 
     ```
     ├─/DATA_PATH_ROOT/Levir-MCI-dataset/
