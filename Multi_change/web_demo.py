@@ -8,8 +8,8 @@ from lagent.actions import ActionExecutor, GoogleSearch, PythonInterpreter, Visu
 from lagent.agents.react import ReAct
 from lagent.llms import GPTAPI
 from lagent.llms.huggingface import HFTransformerCasualLM
-os.environ["SERPER_API_KEY"] = '25d18d5a8c6dc4c61615cfa2be8aa18f15e05e29'
-opanai_key = 'sk-mUI2hyBa9wUaImLR16Fb24595cA04632AbE3C2DdCfB39e0b'
+os.environ["SERPER_API_KEY"] = 'xxxxxxx'
+opanai_key = 'xxxxxxxxx'
 os.environ["http_proxy"] = "http://localhost:7890"
 os.environ["https_proxy"] = "http://localhost:7890"
 class SessionState:
