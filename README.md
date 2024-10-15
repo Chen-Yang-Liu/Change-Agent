@@ -156,7 +156,7 @@ If you find this paper useful in your research, please consider citing:
 @ARTICLE{Liu_Change_Agent,
   author={Liu, Chenyang and Chen, Keyan and Zhang, Haotian and Qi, Zipeng and Zou, Zhengxia and Shi, Zhenwei},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis}, 
+  title={Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis}, 
   year={2024},
   volume={},
   number={},
