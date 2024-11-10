@@ -15,7 +15,8 @@ Official PyTorch implementation of the paper: "**Change-Agent: Toward Interactiv
 
 ## News
 
-2024-06: The code is **available**.
+- 2024-06: The code is **available**.
+- 2024-03: The paper is **available**.
 
 ## Table of Contents
 - [LEVIR-MCI dataset](#LEVIR-MCI-dataset)
