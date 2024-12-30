@@ -4,8 +4,8 @@ from lagent.llms import HFTransformer, HFTransformerCasualLM
 from lagent.llms import GPTAPI
 import os
 
-# os.environ["http_proxy"] = "http://localhost:7890"
-# os.environ["https_proxy"] = "http://localhost:7890"
+# os.environ["http_proxy"] = "http://127.0.0.1:7890"
+# os.environ["https_proxy"] = "http://127.0.0.1:7890"
 
 llm = GPTAPI(model_type='gpt-3.5-turbo', key='xxxxx') # KEY from openai
 # llm = HFTransformer(r'internlm/internlm-chat-7b-v1_1')
