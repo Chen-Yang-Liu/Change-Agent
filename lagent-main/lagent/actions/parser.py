@@ -95,7 +95,11 @@ class JsonParser(BaseParser):
                                   re.S)
                 if match:
                     inputs = match.group(2).strip()
-                inputs = json.loads(inputs)
+                # inputs = json.loads(inputs)
+                try:
+                    inputs = json.loads(inputs)
+                except:
+                    inputs = {'command':inputs}
             except json.JSONDecodeError as exc:
                 raise ParseError(f'invalid json format: {inputs}') from exc
         input_keys = set(inputs)
