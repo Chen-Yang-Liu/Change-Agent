@@ -97,7 +97,7 @@ class StreamlitUI:
                     model_type=option, key=opanai_key)
             else:
                 st.session_state['model_map'][option] = HFTransformerCasualLM(
-                    r'C:\Users\lcy\.cache\huggingface\hub\model--interlm')
+                    'internlm/internlm2_5-7b-chat')
         return st.session_state['model_map'][option]
 
     def initialize_chatbot(self, model, plugin_action):
