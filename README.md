@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chen-Yang-Liu&project=Change-Agent&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
     
 <h1><a href="https://ieeexplore.ieee.org/document/10591792">Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis</a></h1>
